@@ -96,3 +96,35 @@ All services consume and produce JSONs
 ```
 /acode/crud/image/delete/{id}
 ```
+
+### **API** ###
+
+*Get all products excluding relationships (child products, images):*
+```
+/acode/api/product/getProducts
+```
+
+*Get product by id excluding relationships (child products, images):*
+```
+/acode/api/product/getProducts/{id}
+```
+
+*Get all products including specified relationships (child product and/or images):*
+```
+/acode/api/product/getCompleteProducts
+```
+
+*Get product by id including specified relationships (child product and/or images):*
+```
+/acode/api/product/getCompleteProducts/{id}
+```
+
+*Get set of child products for specific product:*
+```
+/acode/api/product/{id}/getChildren
+```
+
+*Get set of images for specific product:*
+```
+/acode/api/product/{id}/getImages
+```
