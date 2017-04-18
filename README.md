@@ -13,7 +13,7 @@ mvn clean install
 ```
 
 ## **Test** 
-Got problem to configure unit tests using Spring and Jersey configurations.
+Got problem to configure unit tests using Spring (with Java class Config) and Jersey configurations.
 When a spring configuration was set, Jersey broke, and when Jersey configuration was set, Spring didn't work.
 
 After some research, I found some frameworks that uses Spring XML configuration and not Java Class configuration (this project was created using Java Class configuration).
