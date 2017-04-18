@@ -22,7 +22,7 @@ In that research, I found this post on Jira that treats this issue:
 
 *https://java.net/jira/browse/JERSEY-2038*
 
-Maybe there's a way to make this work, I'll keep searching...
+I'll keep searching a solution...
 
 ## **Run** 
 ```
