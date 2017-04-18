@@ -6,6 +6,7 @@ Rest Application using:
 * Spring 4
 * Hibernate 5
 * Derby In Memory DB
+* JDK 1.7.0_80
 
 ## **Build**
 ```
