@@ -34,14 +34,6 @@ public class AvenueController {
 	@Autowired
 	private AvenueService avenueService;
 	
-	@GET
-	@Path("/product/test")
-	public Response getTest() {
-		String hello = "hello";
-		String jsonToSend = new Gson().toJson(hello);
-		return Response.ok(new GenericEntity<String>(jsonToSend){}).build();
-	}
-	
 	/**
 	 * Get all products excluding relationships (child products, images)
 	 * @return List of Products
