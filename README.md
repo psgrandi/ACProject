@@ -35,6 +35,7 @@ All services consume and produce JSONs
 
 *Add new product:*
 ```
+HTTP Method: POST
 /acode/crud/product/add
 ```
 
@@ -49,6 +50,7 @@ All services consume and produce JSONs
 
 *Add new child product:*
 ```
+HTTP Method: POST
 /acode/crud/product/{parentId}/addChild
 ```
 
@@ -63,6 +65,7 @@ All services consume and produce JSONs
 
 *Add new image to a product:*
 ```
+HTTP Method: POST
 /acode/crud/product/{productId}/image/add
 ```
 
@@ -74,6 +77,7 @@ All services consume and produce JSONs
 
 *Update product:*
 ```
+HTTP Method: PUT
 /acode/crud/product/update/{id}
 ```
 
@@ -88,6 +92,7 @@ All services consume and produce JSONs
 
 *Update image:*
 ```
+HTTP Method: PUT
 /acode/crud/image/update/{id}
 ```
 
@@ -99,11 +104,13 @@ All services consume and produce JSONs
 
 *Delete product:*
 ```
+HTTP Method: DELETE
 /acode/crud/product/delete/{id}
 ```
 
 *Delete Image:*
 ```
+HTTP Method: DELETE
 /acode/crud/image/delete/{id}
 ```
 
@@ -111,30 +118,36 @@ All services consume and produce JSONs
 
 *Get all products excluding relationships (child products, images):*
 ```
+HTTP Method: GET
 /acode/api/product/getProducts
 ```
 
 *Get product by id excluding relationships (child products, images):*
 ```
+HTTP Method: GET
 /acode/api/product/getProducts/{id}
 ```
 
 *Get all products including specified relationships (child product and/or images):*
 ```
+HTTP Method: GET
 /acode/api/product/getCompleteProducts
 ```
 
 *Get product by id including specified relationships (child product and/or images):*
 ```
+HTTP Method: GET
 /acode/api/product/getCompleteProducts/{id}
 ```
 
 *Get set of child products for specific product:*
 ```
+HTTP Method: GET
 /acode/api/product/{id}/getChildren
 ```
 
 *Get set of images for specific product:*
 ```
+HTTP Method: GET
 /acode/api/product/{id}/getImages
 ```
